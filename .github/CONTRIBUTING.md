@@ -1,4 +1,4 @@
 # Guide for Contributions
 
 
-To contibueute please visit this [link](https://nowhere.xyz)
+To contribute please visit this [link](https://nowhere.xyz)
