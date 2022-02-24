@@ -5,10 +5,11 @@ name: Say Hi to the bootcamp
 # Controls when the workflow will run
 on:
   workflow_dispatch:
-
+env:
+  person: github bootcamp
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo ${{ secrets.PERSON }}
+        run: echo ${{ env.person }}
