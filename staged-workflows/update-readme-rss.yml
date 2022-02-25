@@ -1,0 +1,15 @@
+name: Update this repo's README
+
+on: workflow_dispatch
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JasonEtco/rss-to-readme@v1
+        with:
+          feed-url: http://rss.cnn.com/rss/cnn_topstories.rss
+          readme-section: feed
+# Add section to repo README
+# <!--START_SECTION:feed-->
+# <!--END_SECTION:feed-->
