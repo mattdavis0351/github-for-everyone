@@ -25,13 +25,11 @@ jobs:
 
             - [ ] Start the recording
             - [ ] Check-ins
-            - [ ] Discussion points
-            - [ ] Post the recording
+
                     
             ### Discussion Points
             Add things to discuss below
 
-            - [Work this week]()
           pinned: false
           close-previous: false
         env:
