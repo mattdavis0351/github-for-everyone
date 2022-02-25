@@ -13,15 +13,13 @@ jobs:
   create_issue:
     name: Create team sync issue
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
     steps:
       - name: Create team sync issue
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
-          assignees: "monalisa, doctocat, hubot"
-          labels: "weekly sync, docs-team"
-          title: "Team sync"
+          assignees: "brooksseahorn, mattdavis0351"
+          labels: "bug"
+          title: "Weekly Team Sync"
           body: |
             ### Agenda
 
@@ -33,7 +31,7 @@ jobs:
             ### Discussion Points
             Add things to discuss below
 
-            - [Work this week](https://github.com/orgs/github/projects/3)
+            - [Work this week]()
           pinned: false
           close-previous: false
         env:
