@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #2c2134;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+#sub-text {
+  color: orange;
+}
