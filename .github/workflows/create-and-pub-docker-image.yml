@@ -18,9 +18,6 @@ jobs:
     permissions:
       contents: read
       packages: write
-    defaults:
-      uses:
-        working-directory: demo-app/web-app
 
     steps:
       - name: Checkout repository
